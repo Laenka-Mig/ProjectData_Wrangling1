@@ -1,4 +1,4 @@
-# Cleaning our data with swedish
+# That by Cleaning the data.
 # Definera våran algoritm (obs! in trash bin :) )
 # Nedladda 'packages' och 'libraries'
 # Has via-Internet applications been successful?
@@ -18,7 +18,8 @@ library(stringr)
 #load data in a tibble, give it a unique vector so that you can reuse it in case you make 
 # an error along your coding after overriding the name - takes long to (re-)download.
 
-PN_data <- read_csv("http://594442.youcanlearnit.net/ssadisability.csv")
+PN_data <- read_csv("http://594442.youcanlearnit.net/ssadisability.csv") 
+# credit to Mike Capple.
 
 # click "view" on the "Environment" pane to have a "feel" of the raw data or
 # view
