@@ -100,7 +100,7 @@ sep.long_PN$ansöknings_metod <- as.factor(sep.long_PN$ansöknings_metod)
 # kolla
 print(sep.long_PN)
 
-# Äntligen, konvertera oss våran data from LÅNG till BRED.
+# Äntligen, konvertera oss våran data från LÅNG till BRED.
 PersonNummer <- spread(sep.long_PN, ansöknings_metod, ansökningar)
 
 # Dags att visualisera och får svara till hypotesen. 
