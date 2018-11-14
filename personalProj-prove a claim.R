@@ -1,8 +1,8 @@
-# That by Cleaning the data.
-# Definera våran algoritm (obs! in trash bin :) )
-# Nedladda 'packages' och 'libraries'
-# Has via-Internet applications been successful?
-# If yes, we expect to see a continuous increase in No. of via-internet applications.
+# Data cleaning before processesing.
+# Definera vår algoritm (obs! in gone to the trash bin :) )
+# Ladda ner 'packages' och 'libraries'
+#  ==> Has the newly introduced applications  method been successful?
+# If yes, we expect to see a continuous increase in No. of Method_A applications.
 
 install.packages("tidyverse")
 
@@ -15,8 +15,8 @@ library(lubridate)
 # b/c we are gonna be transforming strings we, load this:
 library(stringr)
 
-#load data in a tibble, give it a unique vector so that you can reuse it in case you make 
-# an error along your coding after overriding the name - takes long to (re-)download.
+#load data in a tibble, we give it a unique vector so that we can reuse it in case we make 
+# an error along our coding after overriding the name - takes long to (re-)download.
 
 PN_data <- read_csv("http://594442.youcanlearnit.net/ssadisability.csv") 
 # credit to Mike Capple.
