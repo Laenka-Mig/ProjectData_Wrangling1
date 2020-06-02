@@ -1,12 +1,11 @@
 # Data cleaning before processesing.
-# Definera vår algoritm (obs! in gone to the trash bin :) )
 # Ladda ner 'packages' och 'libraries'
 #  ==> Has the newly introduced applications  method been successful?
 # If yes, we expect to see a continuous increase in No. of Method_A applications.
 
 install.packages("tidyverse")
 
-# NOTE! loading tidyverse library may show some warning messages, that Okej.
+# NOTE! loading tidyverse library may show some warning messages, that's Okej.
 library(tidyverse)
 
 # b/c we maybe transforming dates and so on, we load "lubridate"
